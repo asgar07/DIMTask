@@ -1,0 +1,98 @@
+﻿@model StudentCreateVM
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid mt-5">
+    <div class="container-fluid mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title fw-semibold mb-4">Student  Create</h5>
+                <div class="card">
+                    <div class="card-body">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <form  asp-controller="Home" asp-action="Create" method="post" enctype="multipart/form-data">
+
+                            <div class="mb-3">
+                                <label asp-for="Name" class="form-label">Name</label>
+                                <input asp-for="Name" class="form-control" >
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Surname" class="form-label">SurName</label>
+                                <input asp-for="Surname" class="form-control" >
+                                <span asp-validation-for="Surname" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Father" class="form-label">Father</label>
+                                <input asp-for="Father" class="form-control" >
+                                <span asp-validation-for="Father" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Mother" class="form-label">Father</label>
+                                <input asp-for="Mother" class="form-control" >
+                                <span asp-validation-for="Mother" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Gender" class="form-label">Gender</label>
+                                <select asp-for="Gender">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                                <span asp-validation-for="Gender" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="FIN" class="form-label">Fin</label>
+                                <input asp-for="FIN" class="form-control" >
+                                <span asp-validation-for="FIN" class="text-danger"></span>
+                                @Html.ValidationMessageFor(model => model.FIN, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Address" class="form-label">Address</label>
+                                <input asp-for="Address" class="form-control" >
+                                <span asp-validation-for="Address" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="MobileTel" class="form-label">Mobile</label>
+                                <input asp-for="MobileTel" class="form-control" >
+                                <span asp-validation-for="MobileTel" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Photo" class="form-label">Photo</label>
+                                <input asp-for="Photo" class="form-control" >
+                                <span asp-validation-for="Photo" class="text-danger"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Create</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js" integrity="sha512-DlXWqMPKer3hZZMFub5hMTfj9aMQTNDrf0P21WESBefJSwvJguz97HB007VuOEecCApSMf5SY7A7LkQwfGyVfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>     
+   @*  <partial name="_ValidationScriptsPartial" /> *@
+
+    <script>
+        $(document).ready(function () {
+            var form = $("form");
+
+            form.removeData("validator");
+            form.removeData("unobtrusiveValidation");
+            $.validator.unobtrusive.parse(form);
+
+            form.find("input, select").on("blur keyup change", function () {
+                $(this).valid();
+            });
+        });
+    </script>
+
+}
+

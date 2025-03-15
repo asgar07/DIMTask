@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\viewmodels\\studentcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\studentcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\viewmodels\\studenteditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\studenteditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\service\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\service\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\viewmodels\\registerwm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\registerwm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|c:\\projects\\back end\\dim web\\dimtaskweb\\webapp\\helpers\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518A2F3A-F1BE-4DFD-86B0-2304B5516693}|WebApp\\WebApp.csproj|solutionrelative:webapp\\helpers\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAjwDkAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T22:54:47.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentEditVM.cs",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\ViewModels\\StudentEditVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\StudentEditVM.cs",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\ViewModels\\StudentEditVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\StudentEditVM.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwCwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T22:18:38.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApp\\appsettings.json",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\appsettings.json",
+              "RelativeToolTip": "WebApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-15T22:07:29.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAACGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T12:39:27.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAIwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:35:07.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAJIAAACAd/9E9hAwwJwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T11:56:24.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T11:45:12.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T11:39:21.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T11:39:06.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterWM.cs",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\ViewModels\\RegisterWM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\RegisterWM.cs",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\ViewModels\\RegisterWM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\RegisterWM.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T11:32:53.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAAAIsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:29:49.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Helpers\\Helper.cs",
+              "RelativeDocumentMoniker": "WebApp\\Helpers\\Helper.cs",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Helpers\\Helper.cs",
+              "RelativeToolTip": "WebApp\\Helpers\\Helper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:26:28.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Home\\Create.cshtml",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T16:08:20.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentCreateVM.cs",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\ViewModels\\StudentCreateVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\StudentCreateVM.cs",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\ViewModels\\StudentCreateVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\StudentCreateVM.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAywDMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:06:56.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAD4v2kAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:05:07.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Service\\StudentService.cs",
+              "RelativeDocumentMoniker": "WebApp\\Service\\StudentService.cs",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Service\\StudentService.cs",
+              "RelativeToolTip": "WebApp\\Service\\StudentService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAIAwwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:03:23.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Service\\Interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "WebApp\\Service\\Interfaces\\IStudentService.cs",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Service\\Interfaces\\IStudentService.cs",
+              "RelativeToolTip": "WebApp\\Service\\Interfaces\\IStudentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T14:37:36.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentConfiguration.cs",
+              "DocumentMoniker": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Configurations\\StudentConfiguration.cs",
+              "RelativeDocumentMoniker": "WebApp\\Configurations\\StudentConfiguration.cs",
+              "ToolTip": "C:\\Projects\\Back End\\Dim Web\\DIMTaskWeb\\WebApp\\Configurations\\StudentConfiguration.cs",
+              "RelativeToolTip": "WebApp\\Configurations\\StudentConfiguration.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T14:37:33.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

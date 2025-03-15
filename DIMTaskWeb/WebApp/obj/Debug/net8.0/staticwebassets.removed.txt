@@ -1,0 +1,3 @@
+C:\Projects\Back End\DIM Task\DIMTaskWeb\WebApp\wwwroot\css\site.css
+C:\Projects\Back End\DIM Task\DIMTaskWeb\WebApp\wwwroot\favicon.ico
+C:\Projects\Back End\DIM Task\DIMTaskWeb\WebApp\wwwroot\js\site.js

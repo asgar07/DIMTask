@@ -1,0 +1,138 @@
+﻿@model List<Student>
+
+@{
+    ViewData["Title"] = "Home Page";
+	var count = 1;
+}
+
+<div class="row mt-5">
+	<div class="col-12 mt-5">
+		<div class="card mb-4">
+			<div class="card-header pb-0">
+				<h6>Students</h6>
+				<div style="justify-content:end; margin-top:30px;" class="d-flex">
+					<a  asp-controller="Home" asp-action="Create" class="badge badge-sm bg-gradient-success">Create</a>
+				</div>
+
+			</div>
+			<div class="card-body px-0 pt-0 pb-2 mt-2">
+				<div class="table-responsive p-0">
+					<table class="table align-items-center justify-content-center mb-0">
+						<thead style="text-align:center">
+							<tr>
+								<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">No</th>
+
+								<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Image</th>
+								<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
+								<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Surname</th>
+								<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Father</th>
+								<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Mother</th>
+
+								<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Gender</th>
+								<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">PhoneNumber</th>
+
+
+
+								<th></th>
+							</tr>
+						</thead>
+						@if (Model.Count != 0)
+						{
+							<tbody>
+
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td class="align-middle text-center">
+											<p class="text-xs font-weight-bold">@count</p>
+										</td>
+
+
+										<td class="align-middle text-center">
+
+											@if (item.Foto != null && item.Foto.Length > 0)
+											{
+												string base64String = Convert.ToBase64String(item.Foto);
+												string imgSrc = $"data:image/jpeg;base64,{base64String}";
+
+												<img src="@imgSrc" width="100" height="70" alt="Fotoğraf">
+											}
+
+
+
+										</td>
+
+										<td class="align-middle text-center">
+
+											<p class="text-xs font-weight-bold">@item?.Name</p>
+
+
+
+										</td>
+
+										<td class="align-middle text-center">
+
+											<p class="text-xs font-weight-bold">@item?.Surname</p>
+
+
+
+										</td>
+
+										<td class="align-middle text-center">
+
+											<p class="text-xs font-weight-bold">@item?.Father</p>
+
+
+
+										</td>
+
+										<td class="align-middle text-center">
+
+											<p class="text-xs font-weight-bold">@item?.Mother</p>
+
+
+
+										</td>
+
+										<td class="align-middle text-center">
+
+											<p class="text-xs font-weight-bold">@item?.Gender</p>
+
+
+
+										</td>
+
+										<td class="align-middle text-center">
+
+											<p class="text-xs font-weight-bold">@item?.MobileTel</p>
+
+
+
+										</td>
+										<td class="align-middle text-center">
+											<div class="d-flex align-items-center justify-content-center gap-2">
+												@* <a asp-controller="User" asp-action="Detail" asp-route-Id="@item.Id" class="btn bg-gradient-dark item"><i class="fas fa-edit"></i></a>*@
+												<a  asp-controller="Home" asp-action="Edit" asp-route-Id="@item.Id" class="btn bg-gradient-dark item"><i class="fas fa-edit"></i></a>
+												@*<a asp-controller="Campaign" asp-action="Delete" asp-route-Id="@item.Id" class="btn bg-gradient-danger item"><i class="fas fa-trash-alt"></i></a>*@
+												<form style="display:inline;" method="post"  asp-controller="Home" asp-action="Delete" asp-route-Id="@item.Id">
+													<button type="submit" class="btn bg-gradient-danger item"><i class="fas fa-trash-alt"></i></button>
+												</form>
+											</div>
+										</td>
+									</tr>
+									count++;
+								}
+
+							</tbody>
+						}
+						else
+						{
+							<p class="no_result">No Students found.</p>
+						}
+
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
